@@ -46,6 +46,7 @@ public class GenerateWriteReplaceHandler extends GenerateMethodHandler {
         buffer.append(" * Called when object is to be serialized on a stream to allow the object to substitute a proxy for itself. \n");
         buffer.append(" *\n");
         buffer.append(" * @return {@code this}, or the proxy for {@code this}.\n");
+        buffer.append(" * @throws java.io.ObjectStreamException if the object cannot be proxied.\n");
         buffer.append(
                 " * @see <a href=\"http://download.oracle.com/javase/1.3/docs/guide/serialization/spec/output.doc5"
                         + ".html\">The Java Object Serialization Specification</a>\n");
