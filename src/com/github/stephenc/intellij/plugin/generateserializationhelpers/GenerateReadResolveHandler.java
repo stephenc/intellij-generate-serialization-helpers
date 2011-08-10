@@ -44,6 +44,7 @@ public class GenerateReadResolveHandler extends GenerateMethodHandler {
         buffer.append("/**\n");
         buffer.append(" * Called when object has been deserialized from a stream. \n");
         buffer.append(" *\n");
+        buffer.append(" * @return {@code this}, or a replacement for {@code this}.\n");
         buffer.append(" * @see <a href=\"http://download.oracle.com/javase/1.3/docs/guide/serialization/spec/input"
                 + ".doc6.html\">The Java Object Serialization Specification</a>\n");
         buffer.append(" */\n");
