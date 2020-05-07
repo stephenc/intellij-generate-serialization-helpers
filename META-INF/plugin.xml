@@ -17,7 +17,7 @@
 <idea-plugin>
   <id>GenerateSerializationHelpers</id>
   <name>GenerateSerializationHelpers</name>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <vendor>StephenC</vendor>
 
   <description><![CDATA[
