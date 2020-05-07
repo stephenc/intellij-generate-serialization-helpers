@@ -14,16 +14,19 @@
  ~  limitations under the License.
  ~
  -->
-<idea-plugin version="2">
+<idea-plugin>
   <name>GenerateSerializationHelpers</name>
   <description>Generates some serialization helper methods that can be hard to remember the signatures of</description>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <vendor>StephenC</vendor>
-  <idea-version since-build="8000"/>
+  <idea-version since-build="162"/>
 
   <application-components/>
 
   <project-components/>
+
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.java</depends>
 
   <actions>
     <action id="GenerateReadObject"
