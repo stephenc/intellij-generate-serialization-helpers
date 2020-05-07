@@ -1,3 +1,5 @@
 *.jar
 out
-workspace.xml
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/vcs.xml

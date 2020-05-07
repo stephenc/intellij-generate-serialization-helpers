@@ -17,7 +17,7 @@
 <idea-plugin>
   <id>GenerateSerializationHelpers</id>
   <name>GenerateSerializationHelpers</name>
-  <version>1.0.5</version>
+  <version>1.0.6</version>
   <vendor>StephenC</vendor>
 
   <description><![CDATA[
@@ -34,6 +34,7 @@
   <ul>
   <li>Updated to IntelliJ 2016+</li>
   <li>Fixed readObject and writeObject generation</li>
+  <li>Fixed plugin packaging</li>
   </ul>
   ]]></change-notes>
 
