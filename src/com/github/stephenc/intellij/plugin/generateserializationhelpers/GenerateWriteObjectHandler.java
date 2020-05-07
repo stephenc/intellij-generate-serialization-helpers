@@ -42,7 +42,7 @@ public class GenerateWriteObjectHandler extends GenerateMethodHandler {
             throws IncorrectOperationException {
         @NonNls StringBuilder buffer = new StringBuilder();
 
-        buffer.append(" /**\n");
+        buffer.append("/**\n");
         buffer.append(" * Called when object is to be serialized to a stream.\n");
         buffer.append(" *\n");
         buffer.append(" * @param stream the stream to write the object to.\n");

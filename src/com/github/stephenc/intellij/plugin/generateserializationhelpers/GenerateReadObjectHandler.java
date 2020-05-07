@@ -41,7 +41,7 @@ public class GenerateReadObjectHandler extends GenerateMethodHandler {
             throws IncorrectOperationException {
         @NonNls StringBuilder buffer = new StringBuilder();
 
-        buffer.append(" /**\n");
+        buffer.append("/**\n");
         buffer.append(" * Called when object is to be deserialized from a stream.\n");
         buffer.append(" *\n");
         buffer.append(" * @param stream the stream to read the object from.\n");

@@ -15,18 +15,35 @@
  ~
  -->
 <idea-plugin>
+  <id>GenerateSerializationHelpers</id>
   <name>GenerateSerializationHelpers</name>
-  <description>Generates some serialization helper methods that can be hard to remember the signatures of</description>
   <version>1.0.4</version>
   <vendor>StephenC</vendor>
-  <idea-version since-build="162"/>
 
-  <application-components/>
+  <description><![CDATA[
+  Generates some serialization helper methods that can be hard to remember the signatures of:
+  <ul>
+  <li><code>readResolve()</code></li>
+  <li><code>writeReplace()</code></li>
+  <li><code>readObject(ObjectInputStream)</code></li>
+  <li><code>writeObject(ObjectOutputStream)</code></li>
+  </ul>
+  ]]></description>
 
-  <project-components/>
+  <change-notes><![CDATA[
+  <ul>
+  <li>Updated to IntelliJ 2016+</li>
+  <li>Fixed readObject and writeObject generation</li>
+  </ul>
+  ]]></change-notes>
+
+  <idea-version since-build="162.0"/>
 
   <depends>com.intellij.modules.platform</depends>
   <depends>com.intellij.modules.java</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+  </extensions>
 
   <actions>
     <action id="GenerateReadObject"
@@ -55,5 +72,4 @@
     </action>
   </actions>
 
-  <extensions defaultExtensionNs="com.intellij"/>
 </idea-plugin>
